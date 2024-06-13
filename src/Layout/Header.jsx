@@ -1,4 +1,5 @@
-import Logo from "./src/assets/logo/logo.webp";
+import Logo from "../assets/logo/logo.webp";
+import Hero from "../assets/images/hero.webp";
 
 const Header = () => {
   return (
@@ -112,7 +113,7 @@ const Header = () => {
           </div>
 
           <img
-            src={"src/assets/images/hero.webp"}
+            src={Hero}
             alt=""
             className="inline-block h-full w-full max-w-[640px]"
           />
