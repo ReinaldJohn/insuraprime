@@ -1,8 +1,7 @@
-import Header from "../Layout/Header";
+import Header from "../components/Header";
 import ContractorsPrimeGL from "../components/ContractorsPrimeGL";
 import InlandMarine from "../components/InlandMarine";
 import Members from "../components/Members";
-import Footer from "../Layout/Footer";
 
 const Home = () => {
   return (
@@ -11,7 +10,6 @@ const Home = () => {
       <ContractorsPrimeGL />
       <InlandMarine />
       <Members />
-      <Footer />
     </>
   );
 };
