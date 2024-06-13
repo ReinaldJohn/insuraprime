@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <footer className="block">
@@ -32,18 +33,18 @@ const Footer = () => {
         <div className="mb-14 w-full border-b border-black mt-16"></div>
         <div className="md:flex-row flex justify-between sm:items-center sm:flex-col items-start flex-col-reverse">
           <div className="font-semibold mb-4 sm:mb-0 py-1 text-center sm:text-center">
-            <a
-              href="#"
+            <Link
+              to={"/terms-and-conditions"}
               className="inline-block font-normal text-gray-500 transition hover:text-blue-600 sm:pr-6 lg:pr-12 py-1.5 sm:py-2 pr-6"
             >
               Terms and Conditions
-            </a>
-            <a
-              href="#"
+            </Link>
+            <Link
+              to={"/privacy-policy"}
               className="inline-block font-normal text-gray-500 transition hover:text-blue-600 sm:pr-6 lg:pr-12 py-1.5 sm:py-2 pr-6"
             >
               Privacy Policy
-            </a>
+            </Link>
           </div>
           <p className="text-gray-500 text-sm sm:text-base">
             © Copyright 2024. All rights reserved.
