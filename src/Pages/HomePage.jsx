@@ -6,7 +6,6 @@ import Members from "../components/Members";
 const Home = () => {
   return (
     <>
-      <Header />
       <ContractorsPrimeGL />
       <InlandMarine />
       <Members />
