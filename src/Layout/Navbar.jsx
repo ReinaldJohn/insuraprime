@@ -10,7 +10,7 @@ const Navbar = () => {
               <img src={Logo} width={200} height={80} alt="" />
             </a>
 
-            <div className="mt-14 flex flex-col space-y-8 lg:mt-0 lg:flex lg:flex-row lg:space-x-1 lg:space-y-0">
+            {/* <div className="mt-14 flex flex-col space-y-8 lg:mt-0 lg:flex lg:flex-row lg:space-x-1 lg:space-y-0">
               <Link
                 to={"/"}
                 className="font-inter rounded-lg lg:px-6 lg:py-4 lg:hover:bg-gray-50 lg:hover:text-gray-800"
@@ -29,16 +29,17 @@ const Navbar = () => {
               >
                 States
               </Link>
-            </div>
+            </div> */}
 
-            <div className="flex flex-col space-y-8 lg:flex lg:flex-row lg:space-x-3 lg:space-y-0">
-              <Link
-                to="#"
+            {/* <div className="flex flex-col space-y-8 lg:flex lg:flex-row lg:space-x-3 lg:space-y-0">
+              <a
+                href="https://certs.pbibins.com/cable/login"
+                target="_blank"
                 className="relative mr-5 inline-block rounded-xl border border-[#1353FE] bg-white px-8 py-4 text-center font-semibold text-[#1353FE] [box-shadow:rgb(0,0,0)_6px_6px] hover:border-black md:mr-6"
               >
                 Login
-              </Link>
-            </div>
+              </a>
+            </div> */}
 
             <a href="#" className="absolute right-5 lg:hidden">
               <svg

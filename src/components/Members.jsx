@@ -14,7 +14,7 @@ const Members = () => {
           </p>
         </div>
 
-        <div className="mx-auto grid max-w-[1040px] grid-cols-1 justify-items-center gap-5 sm:grid-cols-2 sm:justify-items-stretch md:grid-cols-3 md:gap-4 lg:gap-6">
+        <div className="mx-auto grid max-w-[1040px] grid-cols-1 justify-items-center gap-5 sm:grid-cols-2 sm:justify-items-stretch md:grid-cols-2 md:gap-4 lg:gap-6">
           <div className="flex flex-col items-center justify-center gap-4 rounded-xl border border-solid border-[#636262] p-4 [box-shadow:rgb(0,_0,_0)_6px_6px]">
             <img
               src="https://assets.website-files.com/63904f663019b0d8edf8d57c/63980b423c019a5273ee5c6e_Rectangle%2040024.jpg"
@@ -99,7 +99,7 @@ const Members = () => {
             </div>
           </div>
 
-          <div className="flex flex-col items-center justify-center gap-4 rounded-xl border border-solid border-[#636262] p-4 [box-shadow:rgb(0,_0,_0)_6px_6px]">
+          {/* <div className="flex flex-col items-center justify-center gap-4 rounded-xl border border-solid border-[#636262] p-4 [box-shadow:rgb(0,_0,_0)_6px_6px]">
             <img
               src="https://assets.website-files.com/63904f663019b0d8edf8d57c/63980b390754711c1de95455_Rectangle%2040024-2.jpg"
               alt=""
@@ -139,7 +139,7 @@ const Members = () => {
                 />
               </a>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

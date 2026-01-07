@@ -15,7 +15,7 @@ const Footer = () => {
                 className="inline-block mr-3"
               />
               <p className="text-gray-500 text-sm sm:text-base">
-                2102 Business Center Drive, Ste. 280 Irvine, CA 92612
+                5940 S Rainbow Blvd. #1165, Las Vegas, NV 89118 
               </p>
             </div>
             <div className="mb-4 flex max-w-72 items-start justify-start">
